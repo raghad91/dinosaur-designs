@@ -13,7 +13,7 @@ img {
   width: 100%;
 }
 
-h1,h2 {
+h1, h2 {
   color: #5d8432;
   text-transform: uppercase;
 }
@@ -24,16 +24,22 @@ figcaption {
   text-align: center;
 }
 
+nav {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
 nav ol {
   list-style-type: none;
 }
 
 nav a {
-  color: #793284
+  color: #793284;
+  text-decoration: none;
 }
 
-nav{
-  color: b42885;
+nav a:hover {
+  color: #b42885;
   text-decoration: underline;
 }
 
